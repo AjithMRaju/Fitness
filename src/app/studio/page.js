@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import studioLogo from "../../../public/Assets/Unit 45 Fintess Studio logo final PNG.png";
+// import studioLogo from "../../../public/Assets/Unit 45 Fintess Studio logo final PNG.png";
 import StudioCard from "@/Components/Card/StudioCard";
 import { studioData2 } from "@/Utils/data";
 import { TextParallaxContentExample } from "@/Components/Testing";
@@ -9,7 +9,7 @@ const page = () => {
   return (
     <section className="w-screen  bg-zinc-950 py-5">
       <div className="container py-9 h-full w-full flex flex-col justify-center items-cente ">
-        <Image src={studioLogo} alt="unit45fintess stufio" className="w-36" />
+        {/* <Image src={studioLogo} alt="unit45fintess stufio" className="w-36" /> */}
         <div className="py-20">
           <h1
             className="text-start studio-text text-white"
