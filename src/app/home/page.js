@@ -7,7 +7,7 @@ import AboutSub from "../subComponents/aboutSub/page";
 import ServiceSub from "../subComponents/serviceSub/page";
 import BlogSubcomponent from "../subComponents/blogsSub/page";
 import Studio from "../studio/page";
-import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
+// import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
 const page = () => {
   return (
