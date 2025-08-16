@@ -40,7 +40,7 @@ const InstagramFeed = () => {
                 height="600"
                 frameBorder="0"
                 scrolling="no"
-                allowTransparency="true"
+                // allowTransparency="true"
                 className="rounded-lg shadow-md"
               ></iframe>
             </motion.div>
