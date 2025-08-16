@@ -19,7 +19,7 @@ const page = () => {
       <Studio />
       <Gallery />
       <BlogSubcomponent />
-      <InstagramFeed />
+      {/* <InstagramFeed /> */}
       <Contact />
     </div>
   );
