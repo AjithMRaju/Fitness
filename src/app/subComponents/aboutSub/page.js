@@ -1,7 +1,5 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
-import { useRouter } from "next/navigation";
-
 import Image from "next/image";
 import React from "react";
 import flexingImage from "../../../../public/Assets/flexing.jpg";
@@ -9,7 +7,7 @@ import NavigationButton from "@/Components/NavigationButton/NavigationButton.jsx
 
 const page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  const router = useRouter();
+
 
   return (
     <section className="bg-zinc-950 ">

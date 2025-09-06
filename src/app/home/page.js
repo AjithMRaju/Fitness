@@ -2,7 +2,7 @@ import React from "react";
 import Hero from "../heroSection/page";
 import Gallery from "../gallery/page";
 import Contact from "../contact/page";
-import MaequeeText from "../../Components/MaequeeText/MaequeeText.jsx";
+import MaequeeText from "../../Components/MaequeeText/MaequeeText";
 import AboutSub from "../subComponents/aboutSub/page";
 import ServiceSub from "../subComponents/serviceSub/page";
 import BlogSubcomponent from "../subComponents/blogsSub/page";
