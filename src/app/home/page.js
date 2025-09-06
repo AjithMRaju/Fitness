@@ -10,6 +10,11 @@ import Studio from "../studio/page";
 // import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
 const page = () => {
+
+  console.log('Hero:', Hero);
+  console.log('Gallery:', Gallery);
+  console.log('Contact:', Contact);
+
   return (
     <div id="home">
       <Hero />

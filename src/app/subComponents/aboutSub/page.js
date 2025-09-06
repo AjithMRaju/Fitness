@@ -3,7 +3,7 @@
 import Image from "next/image";
 import React from "react";
 import flexingImage from "../../../../public/Assets/flexing.jpg";
-import NavigationButton from "@/Components/NavigationButton/NavigationButton.jsx";
+import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 
 const page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks

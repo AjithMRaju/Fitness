@@ -3,7 +3,7 @@ import { BlogParagraph } from "@/Utils/data.js";
 // import InstagramFeed from "@/Components/InstagramFeed/InstagramFeed.jsx";
 import Image from "next/image";
 import Wrod from "../../../Components/Paragraph/Word.jsx";
-import NavigationButton from "@/Components/NavigationButton/NavigationButton.jsx";
+import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 import gym from "../../../../public/Assets/gym.jpg";
 const page = () => {
   return (
