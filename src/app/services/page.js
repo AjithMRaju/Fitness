@@ -2,16 +2,16 @@ import React from "react";
 import { Col, Container } from "react-bootstrap";
 import Image from "next/image";
 // images
-import personalTraining from "../../../public/Assets/personal-training-new.jpg";
-import Olymic from "../../../public/Assets/olympic-lifting-new.jpeg";
-import Nutrition from "../../../public/Assets/nutrition-new.jpg";
-import Bodybuilding from "../../../public/Assets/bodybuilding-new.webp";
-import Cardio from "../../../public/Assets/cardio-training-new.jpg";
-import Strength from "../../../public/Assets/strngth-cordinationing-new.jpg";
-import Gx_class from "../../../public/Assets/gsx-clasess-newt.jpg";
-import Checkups from "../../../public/Assets/body-checkups-new.jpg";
-import Injury from "../../../public/Assets/stretching-new.jpg";
-import Img2 from "../../../public/Assets/pexels-willpicturethis-1954524.jpg";
+import personalTraining from "../../Assets/personal-training-new.jpg";
+import Olymic from "../../Assets/olympic-lifting-new.jpeg";
+import Nutrition from "../../Assets/nutrition-new.jpg";
+import Bodybuilding from "../../Assets/bodybuilding-new.webp";
+import Cardio from "../../Assets/cardio-training-new.jpg";
+import Strength from "../../Assets/strngth-cordinationing-new.jpg";
+import Gx_class from "../../Assets/gsx-clasess-newt.jpg";
+import Checkups from "../../Assets/body-checkups-new.jpg";
+import Injury from "../../Assets/stretching-new.jpg";
+import Img2 from "../../Assets/pexels-willpicturethis-1954524.jpg";
 // ---
 import Card from "@/Components/Card/Card";
 import Word from "../../Components/Paragraph/Word";

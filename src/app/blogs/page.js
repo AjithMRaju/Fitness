@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import BrandLogo from "../../Components/Logo/BrandLogo";
 import Word from "../../Components/Paragraph/Word";
 import Image from "next/image";
-import gym from "../../../public/Assets/gym.jpg";
+import gym from "../../Assets/gym.jpg";
 const page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isBlog, setIsBloge] = useState(false);
@@ -96,31 +96,14 @@ const page = () => {
               </h2>
               {!isBlog
                 ? blogs.slice(0, 4).map((blog, i) => {
-                    return (
-                      <div
-                        className="col-12 col-md-6 col-lg-3 mb-3 min-h-323px "
-                        key={i}
-                      >
-                        <div className=" hover:bg-white transition-colors duration-300 w-full border h-full border-gray-400 rounded-2xl p-2 flex flex-column justify-content-between">
-                          <h4 className="font-Renoric ">{blog?.blogTitle}</h4>
-                          <p className="">{blog?.blogeDescs}</p>
-                          <div className="w-full flex justify-items-end">
-                            <div className="bg-black text-white w-[40px] h-[40px] rounded-full text-center font-fantasy flex justify-center items-center">
-                              {i + 1}
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    );
-                  })
-                : blogs.map((blog, i) => (
+                  return (
                     <div
                       className="col-12 col-md-6 col-lg-3 mb-3 min-h-323px "
                       key={i}
                     >
                       <div className=" hover:bg-white transition-colors duration-300 w-full border h-full border-gray-400 rounded-2xl p-2 flex flex-column justify-content-between">
                         <h4 className="font-Renoric ">{blog?.blogTitle}</h4>
-                        <p className="font-">{blog?.blogeDescs}</p>
+                        <p className="">{blog?.blogeDescs}</p>
                         <div className="w-full flex justify-items-end">
                           <div className="bg-black text-white w-[40px] h-[40px] rounded-full text-center font-fantasy flex justify-center items-center">
                             {i + 1}
@@ -128,7 +111,24 @@ const page = () => {
                         </div>
                       </div>
                     </div>
-                  ))}
+                  );
+                })
+                : blogs.map((blog, i) => (
+                  <div
+                    className="col-12 col-md-6 col-lg-3 mb-3 min-h-323px "
+                    key={i}
+                  >
+                    <div className=" hover:bg-white transition-colors duration-300 w-full border h-full border-gray-400 rounded-2xl p-2 flex flex-column justify-content-between">
+                      <h4 className="font-Renoric ">{blog?.blogTitle}</h4>
+                      <p className="font-">{blog?.blogeDescs}</p>
+                      <div className="w-full flex justify-items-end">
+                        <div className="bg-black text-white w-[40px] h-[40px] rounded-full text-center font-fantasy flex justify-center items-center">
+                          {i + 1}
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                ))}
             </div>
 
             <button
