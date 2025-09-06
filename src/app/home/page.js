@@ -9,7 +9,7 @@ import BlogSubcomponent from "../subComponents/blogsSub/page";
 import Studio from "../studio/page";
 // import InstagramFeed from "../../Components/InstagramFeed/InstagramFeed";
 
-const page = () => {
+const Homes = () => {
 
   console.log('Hero:', Hero);
   console.log('Gallery:', Gallery);
@@ -30,4 +30,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Homes;
