@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import BranadLogo from "../../../public/Assets/BrandLogo.png";
+import BranadLogo from "../../Assets/BrandLogo.png";
 
 const Hero = () => {
   return (

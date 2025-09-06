@@ -4,7 +4,7 @@ import { BlogParagraph } from "@/Utils/data.js";
 import Image from "next/image";
 import Wrod from "../../../Components/Paragraph/Word";
 import NavigationButton from "@/Components/NavigationButton/NavigationButton";
-import gym from "../../../../public/Assets/gym.jpg";
+import gym from "../../../Assets/gym.jpg";
 const BlogSubcomponent = () => {
   return (
     <section className="bg-secondaryBg" id="blogs">

@@ -5,10 +5,12 @@ import Word from "../../../Components/Paragraph/Word";
 import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 import Example from "@/Components/HorizontalCarousel/HorizontalCarousel";
 // ---
-import Img2 from "../../../../public/Assets/pexels-willpicturethis-1954524.jpg";
+import Img2 from "../../../Assets/pexels-willpicturethis-1954524.jpg";
 
 const ServiceSub = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
+  console.log("NavigationButton sb:", NavigationButton);
+  console.log("Word sb:", Word);
   const paragraph =
     "Unit 45 Fitness, a Premium Gym in Kochi, your destination for comprehensive fitness solutions. We specialize in Fitness Classes, Gym Membership, Personal Training, Weight Loss programs, and Health and Wellness services. ";
   return (

@@ -6,7 +6,7 @@ import { IoCloseSharp } from "react-icons/io5";
 import { HiMiniPause } from "react-icons/hi2";
 import { useNavbar } from "@/Context/NavbarContext";
 import Link from "next/link";
-import brandLogo from "../../../public/Assets/BrandLogo.png";
+import brandLogo from "../../Assets/BrandLogo.png";
 import Image from "next/image";
 
 const page = () => {

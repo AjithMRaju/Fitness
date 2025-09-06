@@ -3,14 +3,14 @@ import Image from "next/image";
 import BrandLogo from "../../Components/Logo/BrandLogo";
 
 //stock images
-import personalTraining from "../../../public/Assets/Gallery/galler-new-1.jpg";
-import Olymic from "../../../public/Assets/Gallery/galler-new-2.jpg";
-import Nutrition from "../../../public/Assets/Gallery/galler-new-3.jpg";
-import Bodybuilding from "../../../public/Assets/Gallery/galler-new-4.jpg";
-import Cardio from "../../../public/Assets/Gallery/galler-new-5.jpg";
-import Strength from "../../../public/Assets/Gallery/galler-new-6.jpg";
-import Gx_class from "../../../public/Assets/Gallery/gallery-new-7.jpg";
-import Injury from "../../../public/Assets/Gallery/gallery-new-8.jpg";
+import personalTraining from "../../Assets/Gallery/galler-new-1.jpg";
+import Olymic from "../../Assets/Gallery/galler-new-2.jpg";
+import Nutrition from "../../Assets/Gallery/galler-new-3.jpg";
+import Bodybuilding from "../../Assets/Gallery/galler-new-4.jpg";
+import Cardio from "../../Assets/Gallery/galler-new-5.jpg";
+import Strength from "../../Assets/Gallery/galler-new-6.jpg";
+import Gx_class from "../../Assets/Gallery/gallery-new-7.jpg";
+import Injury from "../../Assets/Gallery/gallery-new-8.jpg";
 
 const Gallery = () => {
   // images adding to an array...

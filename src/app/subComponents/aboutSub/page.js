@@ -2,12 +2,13 @@
 "use client";
 import Image from "next/image";
 import React from "react";
-import flexingImage from "../../../../public/Assets/flexing.jpg";
+import flexingImage from "../../../Assets/flexing.jpg";
 import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 
 const AboutSub = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
 
+  console.log("NavigationButton :", NavigationButton);
 
   return (
     <section className="bg-zinc-950 ">

@@ -4,9 +4,9 @@ import Image from "next/image";
 import BrandLogo from "../../Components/Logo/BrandLogo";
 import MVVcard from "@/Components/Card/MVVcard";
 // images
-import flexingImage from "../../../public/Assets/flexing.jpg";
-import BodyBuilding from "../../../public/Assets/bodybuilding-new.webp";
-import Olympic from "../../../public/Assets/olympic-lifting-new.jpeg";
+import flexingImage from "../../Assets/flexing.jpg";
+import BodyBuilding from "../../Assets/bodybuilding-new.webp";
+import Olympic from "../../Assets/olympic-lifting-new.jpeg";
 import Strength from "../../../public/Assets/strngth-cordinationing-new.jpg";
 // import Strength from "../../../public/Assets/strength.jpeg";
 
@@ -72,7 +72,7 @@ const page = () => {
                 src={BodyBuilding}
                 alt="BodyBuilding"
                 className="w-full h-full "
-                // className="w-full h-full filter grayscale hover:filter-none transition-all duration-300"
+              // className="w-full h-full filter grayscale hover:filter-none transition-all duration-300"
               />
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">

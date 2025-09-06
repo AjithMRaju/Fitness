@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 "use client";
 import React, { useState } from "react";
-import BrandLogo from "../../../public/Assets/BrandLogo.png";
+import BrandLogo from "../../Assets/BrandLogo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { motion } from "framer-motion";

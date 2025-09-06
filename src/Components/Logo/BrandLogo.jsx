@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import brandLogo from "../../../public/Assets/BrandLogo.png";
+import brandLogo from "../../Assets/BrandLogo.png";
 
 const BrandLogo = () => {
   return (
