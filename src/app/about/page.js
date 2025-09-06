@@ -7,7 +7,7 @@ import MVVcard from "@/Components/Card/MVVcard";
 import flexingImage from "../../Assets/flexing.jpg";
 import BodyBuilding from "../../Assets/bodybuilding-new.webp";
 import Olympic from "../../Assets/olympic-lifting-new.jpeg";
-import Strength from "../../../public/Assets/strngth-cordinationing-new.jpg";
+import Strength from "../../Assets/strngth-cordinationing-new.jpg";
 // import Strength from "../../../public/Assets/strength.jpeg";
 
 const page = () => {
