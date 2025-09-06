@@ -4,7 +4,7 @@ import BrandLogo from "../../Components/Logo/BrandLogo";
 import MaequeeText from "@/Components/MaequeeText/MaequeeText";
 import Form from "@/Components/Form/Form";
 
-const page = () => {
+const Contact = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isFeedback, setIsfeedback] = useState(false);
 
@@ -145,9 +145,8 @@ const page = () => {
           {/* second column */}
           <div className="col-sm-12 col-lg-6   flex flex-col justify-center items-center">
             <section
-              className={`${
-                isFeedback ? "flex flex-col justify-center items-center" : ""
-              } add-card page w-full h-full `}
+              className={`${isFeedback ? "flex flex-col justify-center items-center" : ""
+                } add-card page w-full h-full `}
             >
               <Form />
             </section>
@@ -160,4 +159,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Contact;

@@ -2,10 +2,10 @@ import React from "react";
 import { BlogParagraph } from "@/Utils/data.js";
 // import InstagramFeed from "@/Components/InstagramFeed/InstagramFeed.jsx";
 import Image from "next/image";
-import Wrod from "../../../Components/Paragraph/Word.jsx";
+import Wrod from "../../../Components/Paragraph/Word";
 import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 import gym from "../../../../public/Assets/gym.jpg";
-const page = () => {
+const BlogSubcomponent = () => {
   return (
     <section className="bg-secondaryBg" id="blogs">
       <div className="container  py-2 lg:py-5">
@@ -48,4 +48,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default BlogSubcomponent;

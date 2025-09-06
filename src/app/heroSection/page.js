@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import BranadLogo from "../../../public/Assets/BrandLogo.png";
 
-const page = () => {
+const Hero = () => {
   return (
     <div className="relative w-full h-screen overflow-hidden" id="home">
       <video
@@ -57,4 +57,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Hero;

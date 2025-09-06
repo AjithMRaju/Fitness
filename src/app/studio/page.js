@@ -5,7 +5,7 @@ import StudioCard from "@/Components/Card/StudioCard";
 import { studioData2 } from "@/Utils/data";
 import { TextParallaxContentExample } from "@/Components/Testing";
 
-const page = () => {
+const Studio = () => {
   return (
     <section className="w-screen  bg-zinc-950 py-5">
       <div className="container py-9 h-full w-full flex flex-col justify-center items-cente ">
@@ -54,4 +54,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Studio;

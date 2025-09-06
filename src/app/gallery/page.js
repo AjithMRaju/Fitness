@@ -12,7 +12,7 @@ import Strength from "../../../public/Assets/Gallery/galler-new-6.jpg";
 import Gx_class from "../../../public/Assets/Gallery/gallery-new-7.jpg";
 import Injury from "../../../public/Assets/Gallery/gallery-new-8.jpg";
 
-const page = () => {
+const Gallery = () => {
   // images adding to an array...
   const imgArray = [
     {
@@ -75,4 +75,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Gallery;

@@ -5,7 +5,7 @@ import React from "react";
 import flexingImage from "../../../../public/Assets/flexing.jpg";
 import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 
-const page = () => {
+const AboutSub = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
 
 
@@ -61,4 +61,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default AboutSub;
