@@ -30,7 +30,7 @@ const Hero = () => {
 
         <button className="group/button mt-3 relative inline-flex items-center justify-center overflow-hidden rounded-md bg-gray-800/30 backdrop-blur-lg px-6 py-2 text-base font-semibold text-white transition-all duration-300 ease-in-out hover:scale-110 hover:shadow-xl hover:shadow-gray-600/10 border border-white/20">
           <a
-            href="https://wa.me/917025033044"
+            href="#"
             target="_blank"
             rel="noopener noreferrer"
             className="no-underline text-white"

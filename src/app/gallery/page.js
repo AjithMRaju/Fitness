@@ -41,11 +41,11 @@ const Gallery = () => {
     },
   ];
   return (
-    <section className="">
+    <section className="" id="gallery">
       <main className="bg-secondaryBg pt-lg-5" id="gallery">
         {/* brandLogo component for displaying logo in mobile and tabs  */}
-        <BrandLogo />
-        <div className="container py-3 py-lg-5 mt-lg-5 separetor-line">
+        {/* <BrandLogo /> */}
+        <div className=" p-lg-5 p-3 mt-lg-5 separetor-line">
           <div className="flex items-center">
             <div className="headBox"></div>
             <div className="headBox"></div>

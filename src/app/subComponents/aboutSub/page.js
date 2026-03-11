@@ -8,11 +8,9 @@ import NavigationButton from "@/Components/NavigationButton/NavigationButton";
 const AboutSub = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
 
-  console.log("NavigationButton :", NavigationButton);
-
   return (
-    <section className="bg-zinc-950 ">
-      <div className="container mx-auto px-4 pt-5">
+    <section className="bg-zinc-950 " id="about">
+      <div className=" p-4 p-lg-5">
         <h1 className=" text-6xl text-white font-Renoric">
           Welcome to Most premium <br /> Gym in Kochi ever
         </h1>

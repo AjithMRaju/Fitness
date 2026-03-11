@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
         <NavbarProvider>
           <Navbar className={renoric.className} />
           <main className={renoric.className}>{children}</main>
-          <Footer />
+          {/* <Footer /> */}
         </NavbarProvider>
       </body>
     </html>

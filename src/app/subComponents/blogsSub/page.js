@@ -8,7 +8,7 @@ import gym from "../../../Assets/gym.jpg";
 const BlogSubcomponent = () => {
   return (
     <section className="bg-secondaryBg" id="blogs">
-      <div className="container  py-2 lg:py-5">
+      <div className="p-lg-5 p-4">
         <div className="pb-5">
           <div className="flex items-center">
             <div className="headBox"></div>

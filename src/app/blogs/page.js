@@ -4,6 +4,7 @@ import BrandLogo from "../../Components/Logo/BrandLogo";
 import Word from "../../Components/Paragraph/Word";
 import Image from "next/image";
 import gym from "../../Assets/gym.jpg";
+import BlogCards from "@/Components/Card/BlogCards";
 const page = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [isBlog, setIsBloge] = useState(false);
@@ -68,7 +69,6 @@ const page = () => {
               <div className="headBox"></div>
               <h1 className="text-7xl font-Renoric  py-4 "> Blogs</h1>
             </div>
-
             <div className="py-lg-3">
               <h2
                 className=" text-4xl text-start  "
@@ -85,52 +85,7 @@ const page = () => {
               </div>
               <Word paragraph={Paragraph} />
             </div>
-
-            <div className="row mt-5 ">
-              <h2
-                className="font-Renoric text-6xl text-start text-lg-center  py-3 py-lg-5"
-                style={{ letterSpacing: "-2px" }}
-              >
-                Here’s why Unit 45 Fitness Centre is,
-                <br /> the best Gym in Kochi:
-              </h2>
-              {!isBlog
-                ? blogs.slice(0, 4).map((blog, i) => {
-                  return (
-                    <div
-                      className="col-12 col-md-6 col-lg-3 mb-3 min-h-323px "
-                      key={i}
-                    >
-                      <div className=" hover:bg-white transition-colors duration-300 w-full border h-full border-gray-400 rounded-2xl p-2 flex flex-column justify-content-between">
-                        <h4 className="font-Renoric ">{blog?.blogTitle}</h4>
-                        <p className="">{blog?.blogeDescs}</p>
-                        <div className="w-full flex justify-items-end">
-                          <div className="bg-black text-white w-[40px] h-[40px] rounded-full text-center font-fantasy flex justify-center items-center">
-                            {i + 1}
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  );
-                })
-                : blogs.map((blog, i) => (
-                  <div
-                    className="col-12 col-md-6 col-lg-3 mb-3 min-h-323px "
-                    key={i}
-                  >
-                    <div className=" hover:bg-white transition-colors duration-300 w-full border h-full border-gray-400 rounded-2xl p-2 flex flex-column justify-content-between">
-                      <h4 className="font-Renoric ">{blog?.blogTitle}</h4>
-                      <p className="font-">{blog?.blogeDescs}</p>
-                      <div className="w-full flex justify-items-end">
-                        <div className="bg-black text-white w-[40px] h-[40px] rounded-full text-center font-fantasy flex justify-center items-center">
-                          {i + 1}
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                ))}
-            </div>
-
+            <BlogCards blogs={blogs} isBlog={isBlog} />.
             <button
               onClick={() => setIsBloge(!isBlog)}
               className="mt-4 font-sans flex justify-center gap-2 items-center mx-auto shadow-xl text-lg text-gray-50 bg-zinc-950 backdrop-blur-md lg:font-semibold isolation-auto border-gray-50 before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-[#FFFFFF] hover:text-black before:-z-10 before:aspect-square before:hover:scale-200 before:hover:duration-500 relative z-10 px-4 py-2 overflow-hidden border-2 rounded-full group"

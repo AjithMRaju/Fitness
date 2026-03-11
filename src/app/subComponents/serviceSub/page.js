@@ -9,13 +9,12 @@ import Img2 from "../../../Assets/pexels-willpicturethis-1954524.jpg";
 
 const ServiceSub = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
-  console.log("NavigationButton sb:", NavigationButton);
-  console.log("Word sb:", Word);
+
   const paragraph =
     "Unit 45 Fitness, a Premium Gym in Kochi, your destination for comprehensive fitness solutions. We specialize in Fitness Classes, Gym Membership, Personal Training, Weight Loss programs, and Health and Wellness services. ";
   return (
     <div className="w-screen    bg-secondaryBg" id="services">
-      <Container className="separetor-line pt-5">
+      <div className="separetor-line p-4 p-lg-5">
         <div className="flex items-center">
           <div className="headBox"></div>
           <div className="headBox"></div>
@@ -69,7 +68,7 @@ const ServiceSub = () => {
             navTitle="Services"
           />
         </div>
-      </Container>
+      </div>
     </div>
   );
 };
