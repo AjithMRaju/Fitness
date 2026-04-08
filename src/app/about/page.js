@@ -12,7 +12,7 @@ import Strength from "../../Assets/strngth-cordinationing-new.jpg";
 
 const page = () => {
   const cardContent1 =
-    "To Evolve as a brand that educates people to be aware of the importance of health and fitness and how it is beneficial for their life";
+    "To Evolve  a brand that educates people to be aware of the importance of health and fitness and how it is beneficial for their life";
   const cardContent2 =
     "We won’t compromise on anything less our trainers are internationally qualified ,we have world class fitness equipment our services are at the Premium level,each penny you spend on your fitness and healthwe will guarantee your results";
   const cardContent3 =
@@ -72,7 +72,7 @@ const page = () => {
                 src={BodyBuilding}
                 alt="BodyBuilding"
                 className="w-full h-full "
-              // className="w-full h-full filter grayscale hover:filter-none transition-all duration-300"
+                // className="w-full h-full filter grayscale hover:filter-none transition-all duration-300"
               />
             </div>
             <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-3">
